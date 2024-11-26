@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Bagian 1 Kolom</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa accusantium doloremque quos debitis deleniti enim dolorem animi minima repellendus assumenda esse, in facere nesciunt eum molestias minus nobis illum voluptates corrupti accusamus. Alias debitis reprehenderit accusantium maiores, voluptatum praesentium aut numquam sequi minus accusamus sint voluptates repudiandae enim, itaque maxime quia nam laboriosam dicta, excepturi quo facilis ea! Maiores, iste? Illum ea nisi necessitatibus error vero, eligendi veritatis rem eos consequuntur? Ad, eius? Non aspernatur libero assumenda repudiandae, suscipit temporibus modi exercitationem omnis quo, veritatis expedita. Dolorem consequuntur corrupti impedit earum dolore vel quos, soluta eius, rem maxime debitis rerum?</p>
+            </div>
+
+            <nav class="navbar sticky-top bg-primary" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Coblos kita</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+    
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>kolom 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis maxime modi consectetur repudiandae inventore at sunt praesentium, odio similique!</p>
+            </div>
+            <div class="col">
+                <h3>kolom 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis maxime modi consectetur repudiandae inventore at sunt praesentium, odio similique!</p>
+            </div>
+            <div class="col">
+                <h3>kolom 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse reiciendis maxime modi consectetur repudiandae inventore at sunt praesentium, odio similique!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3>footer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis commodi explicabo laboriosam, tenetur quia similique! Eaque sit consequuntur fuga fugiat saepe omnis esse reiciendis laborum inventore, necessitatibus ab itaque ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aperiam, nam alias quam corporis aspernatur quasi ea pariatur inventore iure quisquam asperiores, ab et illo quas numquam incidunt enim reprehenderit tempore? Aut quisquam neque nobis distinctio rerum ut vel ullam laboriosam praesentium? Pariatur voluptas distinctio quos, asperiores, deserunt quia illum qui vitae id quaerat amet eum repudiandae sapiente quis voluptate, maiores alias aliquid doloremque. Corrupti atque earum beatae praesentium delectus reiciendis nisi, autem hic explicabo illo asperiores excepturi dolor laborum qui. Non facilis itaque sed illo minima, nihil consectetur totam? Enim corporis ipsa libero! Dolor quos inventore doloribus commodi in nulla vel itaque ad natus, aliquam, doloremque maxime incidunt aperiam ut? Iste, quam atque! Dolores exercitationem doloribus iste quaerat perspiciatis, nobis deleniti fugiat temporibus facere ipsum voluptate provident quibusdam quod nesciunt harum fugit maiores ab sapiente rem, cumque beatae laboriosam ducimus! Unde qui fugiat excepturi at, sequi aliquam consectetur ab.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur necessitatibus minima quasi! Voluptatum nesciunt, porro minus nihil a numquam. Vel tenetur placeat odio explicabo ut eius, quos inventore aspernatur distinctio molestias eum ea ab minima architecto fuga? Maxime laboriosam et unde. Qui ea cupiditate voluptates quod. Autem possimus dolorem repellendus error culpa excepturi quasi earum esse laborum consectetur illum nesciunt eligendi unde provident maiores distinctio rem, officiis modi perspiciatis quam ad omnis saepe. Quam, nostrum dolore cumque non dolorem quia consequatur voluptatibus placeat veniam? Rem numquam laboriosam beatae dicta accusantium delectus, vitae rerum odit voluptas, reiciendis maxime expedita mollitia dolore magnam non debitis earum eveniet in. Incidunt consectetur facere repudiandae, culpa aliquid accusantium sunt suscipit assumenda magni adipisci. Ullam corporis laboriosam inventore! Et sunt a minima, laborum similique voluptas eos sequi hic perspiciatis dolore reiciendis, facere nemo omnis reprehenderit doloremque beatae vel minus aliquid necessitatibus voluptatibus ratione fugit quam. Architecto quasi incidunt amet rerum, tenetur assumenda delectus ipsam vel doloremque a dicta deserunt atque voluptate nulla. Animi libero perspiciatis repellendus quisquam repellat ex hic iste fugiat officia, tempore autem sint! Accusantium obcaecati debitis nisi nam exercitationem autem eveniet eaque explicabo, iusto neque nostrum molestiae ipsam odit fuga amet blanditiis aperiam!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquid officia quisquam totam. Inventore tempora quia quas nihil quod ex praesentium nesciunt porro animi quis asperiores, nobis accusantium nemo cupiditate mollitia, ratione rem. Qui, hic! Perspiciatis labore fugiat deserunt officiis neque minus? Dolorem nihil ut odio sunt autem porro asperiores, tempora pariatur, ex corrupti, ipsum sit aperiam sequi debitis. Fugiat, repellendus voluptate sequi beatae cupiditate labore, ipsam placeat consectetur voluptatem vel deserunt ab exercitationem tenetur sint facilis quae odio aut optio debitis minus. Quasi deleniti corrupti explicabo aut veniam non? Reiciendis est, nostrum aliquam nam libero eligendi repellendus sed recusandae odio corporis officia corrupti voluptatem numquam provident atque consequuntur maxime! Aliquam odio aut quaerat necessitatibus quod perferendis doloremque quae nemo, impedit animi reprehenderit veritatis corporis debitis eligendi commodi maiores eos provident sit facere facilis et, nostrum officiis quis. Quasi quis iusto porro neque sequi unde accusamus nam aliquam repudiandae minus?</p>
+                <p>
+                    <table class="table  table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </p>
+
+                <p>
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </p>
+
+                <p>
+                    <img src="./dist/th.jpg" class="img-fluid" alt="...">
+                </p>
+
+                <p>
+                    <button class="btn btn-danger  btn-lg">Click Tombol</button>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
